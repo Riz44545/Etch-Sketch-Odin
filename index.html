@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Odin - SketchPad</title>
+</head>
+<body>
+<div class="flex-container">
+
+    <h1>Odin-sketch</h1>
+    <div class="board">
+        Select amount of squares in the Input box below. (Greater than 1 and less than or equal to 100)
+    </div>
+
+    <div class="size-container">
+        <label for="name">Select Size</label>
+        <input type="text" placeholder="16" name="size" id="size" required>
+        <button class="size-btn">Select</button>
+    </div>
+
+    <div class="toolbar">
+        <input type="color" name="color" id="color">
+        <button class="erase">Erase</button>
+        <button class="random">Random</button>
+        <button class="change">Change Color</button>
+        <button class="clear-board">Clear Board</button>
+    </div>
+</div>
+<script src="script.js"></script>    
+</body>
+</html>
