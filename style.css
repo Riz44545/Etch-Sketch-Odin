@@ -1,0 +1,47 @@
+.board {
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.toolbar > button {
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.toolbar > input {
+    border-radius: 5px;
+}
+
+.random {
+    background: linear-gradient(to right, red,orange,violet);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-family: 'Comic Sans Ms', sans-serif;
+}
+
+.size-container {
+    margin-top: 20px;
+}
+
+.toolbar {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
